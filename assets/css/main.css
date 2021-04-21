@@ -72,6 +72,10 @@ input, select, textarea {
 	appearance: none;
 }
 
+#projects_h3 {
+	margin-bottom: 10px;
+}
+
 /* Row */
 
 	.row {
