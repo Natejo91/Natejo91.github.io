@@ -76,6 +76,10 @@ input, select, textarea {
 	margin-bottom: 10px;
 }
 
+.project_description {
+	margin-top: 15px;
+}
+
 /* Row */
 
 	.row {
