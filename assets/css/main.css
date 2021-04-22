@@ -84,6 +84,14 @@ input, select, textarea {
 	margin-top: 15px;
 }
 
+#gitgud_title {
+	margin-bottom: 5px
+}
+
+#airstage_title {
+	margin-bottom: 5px
+}
+
 /* Row */
 
 	.row {
