@@ -72,24 +72,47 @@ input, select, textarea {
 	appearance: none;
 }
 
+.description-container {
+	position: relative;
+	padding-top: 40px;
+}
+
+#project_description_adoptapet {
+	margin-top: 15px;
+	border-top: 1px solid rgb(190, 190, 190);
+	border-bottom: 1px solid rgb(190, 190, 190);
+}
+
 #projects_h3 {
 	margin-bottom: 10px;
 }
 
 #project_description_gitgud {
 	margin-top: 15px;
+	border-top: 1px solid rgb(190, 190, 190);
+	border-bottom: 1px solid rgb(190, 190, 190);
 }
 
 #project_description_airstage {
 	margin-top: 15px;
+	border-top: 1px solid rgb(190, 190, 190);
+	border-bottom: 1px solid rgb(190, 190, 190);
 }
 
 #gitgud_title {
-	margin-bottom: 5px
+	margin-bottom: 5px;
 }
 
 #airstage_title {
-	margin-bottom: 5px
+	margin-bottom: 5px;
+}
+
+#AdoptaPet_title {
+	margin-bottom: 5px;
+}
+
+#Bazaar_title {
+	margin-bottom: 5px;
 }
 
 /* Row */
