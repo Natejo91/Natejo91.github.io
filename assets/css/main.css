@@ -74,27 +74,45 @@ input, select, textarea {
 
 .description-container {
 	position: relative;
-	padding-top: 40px;
+	padding-top: 20px;
 }
 
-#project_description_adoptapet {
-	margin-top: 15px;
-	border-top: 1px solid rgb(190, 190, 190);
-	border-bottom: 1px solid rgb(190, 190, 190);
+img {
+	border-radius: 10px;
+    box-shadow:  rgb(0 0 0 / 30%) 0px 19px 38px, rgb(0 0 0 / 22%) 0px 15px 12px;
+}
+
+img:hover {
+	border-radius: 10px;
+    box-shadow:  rgb(0 0 0 / 30%) 0px 19px 38px, rgb(0 0 0 / 22%) 0px 15px 12px;
+	transform: translateY(-7px);
 }
 
 #projects_h3 {
 	margin-bottom: 10px;
 }
 
+#project_description_adoptapet {
+	margin-top: 10px;
+	border-top: 1px solid rgb(190, 190, 190);
+	border-bottom: 1px solid rgb(190, 190, 190);
+}
+
+#project_description_bazaar {
+	margin-top: 10px;
+	border-top: 1px solid rgb(190, 190, 190);
+	border-bottom: 1px solid rgb(190, 190, 190);
+}
+
+
 #project_description_gitgud {
-	margin-top: 15px;
+	margin-top: 10px;
 	border-top: 1px solid rgb(190, 190, 190);
 	border-bottom: 1px solid rgb(190, 190, 190);
 }
 
 #project_description_airstage {
-	margin-top: 15px;
+	margin-top: 10px;
 	border-top: 1px solid rgb(190, 190, 190);
 	border-bottom: 1px solid rgb(190, 190, 190);
 }
@@ -111,7 +129,7 @@ input, select, textarea {
 	margin-bottom: 5px;
 }
 
-#Bazaar_title {
+#bazaar_title {
 	margin-bottom: 5px;
 }
 
@@ -1563,12 +1581,12 @@ input, select, textarea {
 /* Section/Article */
 
 	section, article {
-		margin-bottom: 3em;
+		margin-bottom: 1em;
 	}
 
-		section > :last-child, section:last-child, article > :last-child, article:last-child {
-			margin-bottom: 0;
-		}
+	section > :last-child, section:last-child, article > :last-child, article:last-child {
+		margin-bottom: 0;
+	}
 
 	header {
 		margin: 0 0 1.5em 0;
