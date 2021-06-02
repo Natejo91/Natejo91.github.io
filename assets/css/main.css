@@ -88,6 +88,15 @@ img:hover {
 	transform: translateY(-7px);
 }
 
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: blue;
+}
+
 #projects_h3 {
 	margin-bottom: 10px;
 }
@@ -131,6 +140,29 @@ img:hover {
 
 #bazaar_title {
 	margin-bottom: 5px;
+}
+
+#email {
+	position: relative;
+	top: 130px;
+}
+
+#resume {
+	position: relative;
+	top: 130px;
+}
+
+/* DevIcons */
+
+.icon {
+	width: 80px;
+	height: 80px;
+	padding: 5px;
+}
+
+.devicon-container {
+	display: flex;
+	margin-top: 20px;
 }
 
 /* Row */
